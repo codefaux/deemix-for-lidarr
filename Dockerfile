@@ -38,6 +38,6 @@ ENV PUID=99
 ENV PGID=100
 ENV UMASK=0022
 
-VOLUME ["/config", "/downloads"]
+VOLUME ["/deemix-gui/config", "/downloads"]
 EXPOSE 6595
 ENTRYPOINT /deemix-server.sh
