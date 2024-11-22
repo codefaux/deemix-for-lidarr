@@ -25,8 +25,8 @@ services:
       - UMASK=0022
       - TZ=Etc/UTC
     volumes:
-    - /docker/deemix/downloads:/downloads
-    - /docker/lidarr/config:/config
+      - /docker/deemix/downloads:/downloads
+      - /docker/lidarr/config:/config
     ports:
       - 8686:8686
     restart: unless-stopped
