@@ -5,9 +5,9 @@ services:
     container_name: deemix
     image: codefaux/deemix-for-lidarr
     environment:
-      - PUID:100
-      - PGID:99
-      - UMASK:0022
+      - PUID=100
+      - PGID=99
+      - UMASK=0022
       - TZ=Etc/UTC
     volumes:
       - /docker/deemix/downloads:/downloads
