@@ -2,7 +2,7 @@
 
 DEPRECATED AND NO LONGER REQUIRED, SEE ISSUE [#12](https://github.com/codefaux/deemix-for-lidarr/issues/12)
 
-Kept for archival purposes only. I'll probably remove the containers or something at some point to cue people into the new options.
+Kept for archival purposes only. I apologize for just nuking the container images, but using an outdated project is potentially very unsafe and there's no real reason for me to be involved beyond the instructions, when deployed using the maintained version I've added nothing beyond that.
 
 .
 
